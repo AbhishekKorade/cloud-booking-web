@@ -41,21 +41,21 @@ const NavBar = () => {
           <div className="hidden lg:flex space-x-6 lg:space-x-4 xl:space-x-6">
             {[
               { label: "Home", link: "/" },
-              { label: "About", link: "/About" },
+              { label: "About", link: "/about" },
               {
                 label: "Founder",
                 link: "#",
                 dropdown: [
-                  { label: "CEO", link: "/Founder/ceo" },
-                  { label: "MD", link: "/Founder/md" },
+                  { label: "CEO", link: "/founder/ceo" },
+                  { label: "MD", link: "/founder/md" },
                 ],
               },
               {
                 label: "Projects & Industries",
                 link: "#",
                 dropdown: [
-                  { label: "Projects", link: "/projects/it" },
-                  { label: "Industries", link: "/projects/healthcare" },
+                  { label: "Projects", link: "/projects-industries/projects" },
+                  { label: "Industries", link: "/projects-industries/industries" },
                 ],
               },
               {
@@ -164,21 +164,21 @@ const NavBar = () => {
           <div className="px-4 py-2 space-y-2">
             {[
               { label: "Home", link: "/" },
-              { label: "About", link: "/About" },
+              { label: "About", link: "/about" },
               {
                 label: "Founder",
                 link: "#",
                 dropdown: [
-                  { label: "CEO", link: "/Founder/ceo" },
-                  { label: "MD", link: "/Founder/md" },
+                  { label: "CEO", link: "/founder/ceo" },
+                  { label: "MD", link: "/founder/md" },
                 ],
               },
               {
                 label: "Projects & Industries",
                 link: "#",
                 dropdown: [
-                  { label: "Projects", link: "/projects/it" },
-                  { label: "Industries", link: "/projects/healthcare" },
+                  { label: "Projects", link: "/projects-industries/projects" },
+                  { label: "Industries", link: "/projects-industries/industries" },
                 ],
               },
               {
