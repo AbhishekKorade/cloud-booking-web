@@ -62,22 +62,22 @@ const NavBar = () => {
                 label: "Services",
                 link: "#",
                 dropdown: [
-                  { label: "Website Devlopment", link: "/services/consulting" },
+                  { label: "Website Devlopment", link: "/services/web-developement" },
                   {
                     label: "Google My Business Profile Handling",
-                    link: "/services/development",
+                    link: "/services/buisness-profile",
                   },
                   {
                     label: "Search Engine optimization",
-                    link: "/services/development",
+                    link: "/services/search-engine",
                   },
                   {
                     label: "Software & Web Application Devlopment",
-                    link: "/services/development",
+                    link: "/services/software-web-devlopement",
                   },
                   {
                     label: "Ecommerce Services",
-                    link: "/services/development",
+                    link: "/services/e-commerce",
                   },
                   { label: "Digital Marketing", link: "/services/development" },
                   {
@@ -185,22 +185,22 @@ const NavBar = () => {
                 label: "Services",
                 link: "#",
                 dropdown: [
-                  { label: "Website Devlopment", link: "/services/consulting" },
+                  { label: "Website Devlopment", link: "/services/web-developement" },
                   {
                     label: "Google My Business Profile Handling",
-                    link: "/services/development",
+                    link: "/services/buisness-profile",
                   },
                   {
                     label: "Search Engine optimization",
-                    link: "/services/development",
+                    link: "/services/search-engine",
                   },
                   {
                     label: "Software & Web Application Devlopment",
-                    link: "/services/development",
+                    link: "/services/software-web-devlopement",
                   },
                   {
                     label: "Ecommerce Services",
-                    link: "/services/development",
+                    link: "/services/e-commerce",
                   },
                   { label: "Digital Marketing", link: "/services/development" },
                   {
