@@ -3,7 +3,7 @@ const Home = () => {
     <div className="relative xl:h-screen w-[100%] overflow-hidden mt-16 lg:mt-8 font-sans">
       {/* Background Image */}
       <img 
-        src="/bg-image.png" // Ensure the image is inside the public folder
+        src="/Capture.JPG" // Ensure the image is inside the public folder
         alt="Home Image" 
         className="w-full h-full object-cover"
       />
@@ -20,10 +20,10 @@ const Home = () => {
           <span className="text-white">services</span>
         </h3>
         <div className="flex gap-3 lg:gap-5 ml-2 xl:ml-4">
-          <button className="bg-blue-500 italic text-white text-xs lg:text-[16px] md:text-sm px-3 py-1 md:px-4 md:py-2 rounded-full">
+          <button className="bg-blue-500 italic text-white text-xs lg:text-[16px] md:text-sm px-2 py-1 md:px-4 md:py-2 rounded-full">
             Our Services
           </button>
-          <button className="bg-blue-500 italic text-white text-xs lg:text-[16px] md:text-sm px-3 py-1 md:px-4 md:py-2 rounded-full">
+          <button className="bg-blue-500 italic text-white text-xs lg:text-[16px] md:text-sm px-2 py-1 md:px-4 md:py-2 rounded-full">
             Contact Us
           </button>
         </div>

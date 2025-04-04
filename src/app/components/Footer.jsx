@@ -6,11 +6,11 @@ const Footer = () => {
   const usefulLinks = [
     { name: "Home", path: "/" },
     { name: "About", path: "/about" },
-    { name: "Project", path: "/projects" },
-    { name: "Industries", path: "/industries" },
-    { name: "Cloud Learning", path: "/cloud-learning" },
-    { name: "Career", path: "/career" },
-    { name: "Blogs", path: "/blogs" },
+    { name: "Project", path: "/projects-industries/projects" },
+    { name: "Industries", path: "/projects-industries/industries" },
+    { name: "Cloud Learning", path: "/career-solution/cloud-learning" },
+    { name: "Career", path: "/career-solution/career" },
+    { name: "Blogs", path: "/career-solution/blog" },
     { name: "Contact", path: "/contact" },
   ];
 
