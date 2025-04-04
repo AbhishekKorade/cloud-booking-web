@@ -2,7 +2,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { FaUserTie, FaArrowRight } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa";
 
 const jobListings = [
   {
@@ -112,54 +112,45 @@ const Career = () => {
   }, []);
 
   return (
-    <div className="mt-4 px-4 md:px-8 lg:px-12 lg:mt-5">
+    <div className="mt-8 px-6 md:px-12 lg:px-16">
       {/* Title & Subtitle */}
-      <h5
-        className="text-4xl text-blue-900 text-center font-bold"
-        data-aos="fade-up"
-      >
-        Career
-      </h5>
-      <p
-        className="italic text-center text-gray-600"
-        data-aos="fade-up"
-        data-aos-delay="200"
-      >
-        Unlocking Your Potential, Empowering Your Career
-      </p>
+      <div className="text-center">
+        <h2 className="text-4xl font-bold text-blue-900" data-aos="fade-up">
+          Join Our Team
+        </h2>
+        <p className="italic text-gray-600 mt-2" data-aos="fade-up" data-aos-delay="200">
+          Find the perfect role to grow your career.
+        </p>
+      </div>
 
       {/* Job Listings */}
-      <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-5">
-
+      <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {jobListings.map((job, index) => (
           <div
             key={job.id}
-            className="bg-blue-900 text-white rounded-lg shadow-lg w-full max-w-lg p-6"
+            className="bg-gray-50 border border-gray-200 shadow-lg rounded-xl p-4 transition-all transform hover:-translate-y-2 hover:shadow-xl"
             data-aos="fade-up"
-            data-aos-delay={index * 200}
+            data-aos-delay={index * 150}
           >
             {/* Job Title */}
             <div className="flex justify-between items-center">
-              <div className="flex items-center gap-2">
-                {/* <FaUserTie className="text-white text-lg" /> */}
-                <span className="text-xl font-semibold">{job.title}</span>
-              </div>
-              <button className="bg-blue-400 text-white px-2 cursor-pointer py-1 rounded-lg flex items-center gap-2 hover:bg-blue-500">
-                <FaArrowRight /> Apply Now
+              <h3 className="text-xl font-semibold text-blue-900">{job.title}</h3>
+              <button className="bg-blue-600 text-sm text-white px-2 py-2 rounded-lg flex items-center gap-2 hover:bg-blue-700 transition">
+                Apply Now <FaArrowRight />
               </button>
             </div>
 
             {/* Job Description */}
-            <p className="mt-4 text-sm text-gray-200">{job.description}</p>
+            <p className="mt-3 text-gray-700 text-sm leading-relaxed">{job.description}</p>
 
             {/* Responsibilities */}
             <div className="mt-4">
-              
+              <h4 className="text-sm font-semibold text-gray-800">Key Skills:</h4>
               <div className="flex flex-wrap gap-2 mt-2">
                 {job.responsibilities.map((item, idx) => (
                   <span
                     key={idx}
-                    className="bg-red-600 text-white text-xs px-3 py-1 rounded-md"
+                    className="bg-blue-200 text-blue-900 text-xs px-3 py-1 rounded-full"
                   >
                     {item}
                   </span>

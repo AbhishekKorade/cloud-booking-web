@@ -108,7 +108,7 @@ const NavBar = () => {
                 dropdown: [
                   { label: "Cloud Learning", link: "/career-solution/cloud-learning" },
                   { label: "Blogs", link: "/career-solution/blog" },
-                  { label: "Career", link: "career-solution/career" },
+                  { label: "Career", link: "/career-solution/career" },
                 ],
               },
               { label: "Contact Us", link: "/contact" },
@@ -231,7 +231,7 @@ const NavBar = () => {
                 dropdown: [
                   { label: "Cloud Learning", link: "/career-solution/cloud-learning" },
                   { label: "Blogs", link: "/career-solution/blog" },
-                  { label: "Career", link: "career-solution/career" },
+                  { label: "Career", link: "/career-solution/career" },
                 ],
               },
               { label: "Contact Us", link: "/contact" },
