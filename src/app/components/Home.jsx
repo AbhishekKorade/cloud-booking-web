@@ -3,7 +3,7 @@ const Home = () => {
     <div className="relative xl:h-screen w-[100%] overflow-hidden mt-16 lg:mt-8 font-sans">
       {/* Background Image */}
       <img 
-        src="/Capture.JPG" // Ensure the image is inside the public folder
+        src="/bg-image.png" // Ensure the image is inside the public folder
         alt="Home Image" 
         className="w-full h-full object-cover"
       />

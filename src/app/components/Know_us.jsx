@@ -153,11 +153,11 @@ const Know_us = () => {
   }, []);
 
   return (
-    <div className="container mx-auto px-4 overflow-hidden">
-      <h4 className="text-4xl text-blue-900 text-center font-bold">
+    <div className="container mx-auto px-4 overflow-hidden mt-2">
+      <h4 className="text-2xl md:text-3xl lg:text-4xl text-blue-900 text-center font-bold">
         Get to Know Us
       </h4>
-      <p className="italic text-center text-gray-600">
+      <p className="italic text-sm md:text-md text-center text-gray-600">
         Driving Innovation and Empowering Businesses through Cutting-Edge IT
         Solutions
       </p>
@@ -177,7 +177,7 @@ const Know_us = () => {
         </div>
 
         <div className="mt-5 lg:mt-12">
-          <p className="font-bold text-[17px] md:text-lg text-black" data-aos="fade-right">
+          <p className="font-semibold md:font-bold text-[17px] md:text-lg text-black" data-aos="fade-right">
             The best IT solution with 4 years of experience
           </p>
 
@@ -220,10 +220,10 @@ const Know_us = () => {
                 })}
               </div>
               <div>
-                <h5 className="font-bold text-black text-xl leading-8">
+                <h5 className="font-semibold md:font-bold text-black text-xl leading-8">
                   {item.title}
                 </h5>
-                <p className="font-semibold text-[14px] sm:text-[15px] text-black">
+                <p className="font-medium text-[14px] sm:text-[15px] text-black">
                   {item.text}
                 </p>
               </div>
