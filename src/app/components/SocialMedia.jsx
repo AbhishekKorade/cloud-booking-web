@@ -3,13 +3,13 @@ import React from "react";
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter, FaYoutube, FaWhatsapp, FaPhoneAlt } from "react-icons/fa";
 
 const socialLinks = [
-  { icon: <FaFacebookF />, url: "https://facebook.com", bgColor: "bg-blue-600 hover:bg-blue-800" },
-  { icon: <FaInstagram />, url: "https://instagram.com", bgColor: "bg-pink-500 hover:bg-pink-700" },
-  { icon: <FaLinkedinIn />, url: "https://linkedin.com", bgColor: "bg-blue-700 hover:bg-blue-900" },
-  { icon: <FaTwitter />, url: "https://twitter.com", bgColor: "bg-sky-500 hover:bg-sky-700" },
-  { icon: <FaYoutube />, url: "https://youtube.com", bgColor: "bg-red-600 hover:bg-red-800" },
-  { icon: <FaWhatsapp />, url: "https://wa.me/yourwhatsapplink", bgColor: "bg-green-500 hover:bg-green-700" },
-  { icon: <FaPhoneAlt />, url: "tel:+918692805267", bgColor: "bg-blue-600 hover:bg-blue-800" }, // Changed Call Icon & BG Color
+  { icon: <FaFacebookF />, url: "https://www.facebook.com/people/Cloud-Booking-Software-Solutions-Pune/100075879862225/", bgColor: "bg-blue-600 hover:bg-blue-800" },
+  { icon: <FaInstagram />, url: "https://www.instagram.com/cloudbookingsolutions/", bgColor: "bg-pink-500 hover:bg-pink-700" },
+  { icon: <FaLinkedinIn />, url: "https://www.linkedin.com/in/cloud-booking-software-solutions-25422a234/", bgColor: "bg-blue-700 hover:bg-blue-900" },
+  { icon: <FaTwitter />, url: "https://twitter.com/software166852", bgColor: "bg-sky-500 hover:bg-sky-700" },
+  { icon: <FaYoutube />, url: "https://www.youtube.com/@cloudbookingsolutions5853/featured", bgColor: "bg-red-600 hover:bg-red-800" },
+  { icon: <FaWhatsapp />, url: "https://api.whatsapp.com/send?phone=+919860302372&text=Hi!%20Cloud%20Booking%20Software%20Solution", bgColor: "bg-green-500 hover:bg-green-700" },
+  { icon: <FaPhoneAlt />, url: "tel:+919860302372", bgColor: "bg-blue-600 hover:bg-blue-800" }, // Changed Call Icon & BG Color
 ];
 
 const SocialMediaIcons = () => {

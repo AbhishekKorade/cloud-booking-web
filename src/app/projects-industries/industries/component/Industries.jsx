@@ -70,10 +70,10 @@ const Industries = () => {
   return (
     <div className="mt-10 px-4 md:px-8 lg:px-12 py-5 bg-blue-50">
       {/* Heading */}
-      <h4 className="text-4xl text-blue-900 text-center font-bold" data-aos="fade-up">
+      <h4 className="text-2xl md:text-3xl lg:text-4xl text-blue-900 text-center font-bold" data-aos="fade-up">
         Industries We Serve
       </h4>
-      <p className="italic text-center text-gray-600 mb-8" data-aos="fade-up" data-aos-delay="200">
+      <p className="italic text-sm md:text-md text-center text-gray-600 mb-8" data-aos="fade-up" data-aos-delay="200">
         Powering Progress Across Industries: Our Expertise, Your Success
       </p>
 

@@ -11,10 +11,10 @@ const ManagingDirector = () => {
   return (
     <div className="mt-10 mx-4 md:mx-8 lg:mx-12 relative">
       {/* Title & Subtitle */}
-      <h4 className="text-4xl text-blue-900 text-center font-bold" data-aos="fade-up">
+      <h4 className="text-2xl md:text-3xl lg:text-4xl text-blue-900 text-center font-bold" data-aos="fade-up">
         Meet Our Dynamic Managing Director
       </h4>
-      <p className="italic text-center text-gray-600" data-aos="fade-up" data-aos-delay="200">
+      <p className="italic text-sm md:text-md text-center text-gray-600" data-aos="fade-up" data-aos-delay="200">
         Leading with Vision, Empowering with Purpose.
       </p>
 

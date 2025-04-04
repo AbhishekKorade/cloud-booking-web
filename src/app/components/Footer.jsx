@@ -15,11 +15,11 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    { icon: <FaTwitter size={20} />, url: "https://twitter.com" },
-    { icon: <FaFacebookF size={20} />, url: "https://facebook.com" },
-    { icon: <FaInstagram size={20} />, url: "https://instagram.com" },
-    { icon: <FaYoutube size={20} />, url: "https://youtube.com" },
-    { icon: <FaLinkedin size={20} />, url: "https://linkedin.com" },
+    { icon: <FaTwitter size={20} />, url: "https://twitter.com/software166852" },
+    { icon: <FaFacebookF size={20} />, url: "https://www.facebook.com/people/Cloud-Booking-Software-Solutions-Pune/100075879862225/" },
+    { icon: <FaInstagram size={20} />, url: "https://www.instagram.com/cloudbookingsolutions/" },
+    { icon: <FaYoutube size={20} />, url: "https://www.youtube.com/@cloudbookingsolutions5853/featured" },
+    { icon: <FaLinkedin size={20} />, url: "https://www.linkedin.com/in/cloud-booking-software-solutions-25422a234/" },
   ];
 
   return (
