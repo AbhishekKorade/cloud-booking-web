@@ -11,10 +11,10 @@ const IndustryPartner = () => {
   return (
     <div className="mt-4 px-4 md:px-8 lg:px-12 py-10 bg-blue-50">
       {/* Section Title */}
-      <h4 className="text-4xl text-blue-900 text-center font-bold">
+      <h4 className="text-2xl md:text-3xl lg:text-4xl text-blue-900 text-center font-bold">
         Collaborative Industry Partner
       </h4>
-      <p className="italic text-center text-gray-600 mt-2">
+      <p className="italic text-sm md:text-md text-center text-gray-600 mt-2">
         Empowering a Future of Innovation and Efficiency Together
       </p>
 

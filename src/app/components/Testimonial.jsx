@@ -24,7 +24,7 @@ const Testimonial = () => {
   return (
     <div className="w-full lg:h-[400px] bg-blue-50 flex mt-5 py-5 flex-col justify-center">
       {/* Heading with AOS fade-up animation */}
-      <h5 className="text-4xl text-blue-900 text-center font-bold" data-aos="fade-up">
+      <h5 className="text-2xl md:text-3xl lg:text-4xl text-blue-900 text-center font-bold" data-aos="fade-up">
         Testimonials
       </h5>
 

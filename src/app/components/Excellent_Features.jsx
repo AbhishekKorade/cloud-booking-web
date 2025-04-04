@@ -52,13 +52,13 @@ const Excellent_Features = () => {
         <div className="mt-4 px-4 md:px-8 lg:px-12 lg:mt-10 py-4 bg-blue-50">
             {/* Title & Subtitle - Fade Up */}
             <h5 
-                className="text-4xl text-blue-900 text-center font-bold"
+                className="text-2xl md:text-3xl lg:text-4xl text-blue-900 text-center font-bold"
                 data-aos="fade-up"
             >
                 We Provide Excellent Features
             </h5>
             <p 
-                className="italic text-center text-gray-600"
+                className="italic text-sm md:text-md text-center text-gray-600"
                 data-aos="fade-up" 
                 data-aos-delay="200"
             >
@@ -86,7 +86,7 @@ const Excellent_Features = () => {
                             
                             {/* Title - Fade Up */}
                             <h2 
-                                className='text-center text-blue-500 hover:text-blue-900 cursor-pointer font-bold text-2xl mt-3'
+                                className='text-center text-blue-500 hover:text-blue-900 cursor-pointer font-bold text-xl lg:text-2xl mt-3'
                                 data-aos="fade-up"
                                 data-aos-delay="200"
                             >

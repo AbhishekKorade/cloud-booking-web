@@ -15,10 +15,10 @@ const SelectUs = () => {
   return (
     <div className="mt-10 px-4 md:px-8 lg:px-12 bg-blue-50 py-5">
       {/* Section Title */}
-      <h4 className="text-4xl text-blue-900 text-center font-bold" data-aos="fade-up">
+      <h4 className="text-2xl md:text-3xl lg:text-4xl text-blue-900 text-center font-bold" data-aos="fade-up">
         The Reasons to Select Us
       </h4>
-      <p className="italic text-center text-gray-600" data-aos="fade-up" data-aos-delay="200">
+      <p className="italic text-sm md:text-md text-center text-gray-600" data-aos="fade-up" data-aos-delay="200">
         Choose Us for Reliable IT Solutions, Exceptional Expertise, and Client-Centric Approach
       </p>
 
@@ -35,8 +35,8 @@ const SelectUs = () => {
             data-aos="fade-up"
             data-aos-delay={index * 200}
           >
-            <div className="text-5xl flex justify-center items-center">{item.icon}</div>
-            <h5 className="text-2xl font-bold mt-4">{item.title}</h5>
+            <div className="text-4xl lg:text-5xl flex justify-center items-center">{item.icon}</div>
+            <h5 className="text-xl lg:text-2xl font-bold mt-4">{item.title}</h5>
             <p className="mt-3 text-sm">{item.text}</p>
           </div>
         ))}
@@ -51,10 +51,10 @@ const SelectUs = () => {
           { number: 20, label: "Hard Workers" }
         ].map((stat, index) => (
           <div key={index} data-aos="fade-up" data-aos-delay={index * 200}>
-            <h2 className="text-4xl font-bold">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold">
               <CountUp start={0} end={stat.number} duration={3} separator="," />
             </h2>
-            <p className="text-lg">{stat.label}</p>
+            <p className="text-md lg:text-lg">{stat.label}</p>
           </div>
         ))}
       </div>

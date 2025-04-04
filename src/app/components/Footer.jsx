@@ -33,11 +33,11 @@ const Footer = () => {
               <div className=" flex justify-center items-center w-full">
               <img src="https://cloudbookingsolutions.com/img/logo1.png" alt="Logo" className="h-24 w-44 object-contain" />
               </div>
-              <h4 className="text-3xl font-semibold uppercase leading-tight text-white">
+              <h4 className="text-2xl lg:text-3xl font-semibold uppercase leading-tight text-white">
                 Cloud Booking Software Solutions
               </h4>
             </div>
-            <p className="mt-3 text-white text-[16px] leading-relaxed">
+            <p className="mt-3 text-white text-[15px] md:text-[16px] leading-relaxed">
               Cloud Booking Software Solutions is a provider of IT consulting and software development services.
               We specialize in web development, digital marketing, and customized solutions tailored to business needs.
             </p>
@@ -45,11 +45,11 @@ const Footer = () => {
 
           {/* Middle Section - Useful Links */}
           <div>
-            <h4 className="text-xl font-bold uppercase text-white">Useful Links</h4>
+            <h4 className="text-lg md:text-xl font-bold uppercase text-white">Useful Links</h4>
             <ul className="mt-3 space-y-2">
               {usefulLinks.map((link) => (
                 <li key={link.name}>
-                  <a href={link.path} className="text-white hover:text-gray-300 text-[16px]">
+                  <a href={link.path} className="text-white hover:text-gray-300 text-[15px] md:text-[16px]">
                     {link.name}
                   </a>
                 </li>
@@ -59,17 +59,17 @@ const Footer = () => {
 
           {/* Right Section - Contact Info */}
           <div>
-            <h4 className="text-xl font-bold uppercase text-white">Contact Us</h4>
-            <p className="mt-3 text-white text-[16px] leading-relaxed">
+            <h4 className="text-lg md:text-xl font-bold uppercase text-white">Contact Us</h4>
+            <p className="mt-3 text-white text-[15px] md:text-[16px] leading-relaxed">
               Gate No: 02, D4 Building, Sakal Nagar, Aundh, Pune - 411007
             </p>
-            <p className="text-white font-bold mt-2 text-[16px]">
+            <p className="text-white font-bold mt-2 text-[15px] md:text-[16px]">
               Phone 1: <span className="font-normal">+91 8692805267</span>
             </p>
-            <p className="text-white font-bold text-[16px]">
+            <p className="text-white font-bold text-[15px] md:text-[16px]">
               Phone 2: <span className="font-normal">+91 9860302372</span>
             </p>
-            <p className="text-white font-bold text-[16px]">
+            <p className="text-white font-bold text-[15px] md:text-[16px]">
               Email: <span className="font-normal">cloudbookingsolutions@gmail.com</span>
             </p>
 
@@ -92,7 +92,7 @@ const Footer = () => {
         </div>
 
         {/* Footer Bottom Section */}
-        <div className="text-center mt-10 border-t border-blue-600 pt-6 text-[16px] text-white">
+        <div className="text-center mt-10 border-t border-blue-600 pt-6 text-[15px] md:text-[16px] text-white">
           <p>
             &copy; <span className="font-bold">Cloud Booking Software Solutions</span>. All Rights Reserved.
           </p>

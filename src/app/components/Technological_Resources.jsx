@@ -4,10 +4,10 @@ import { FaHtml5, FaCss3, FaJs, FaBootstrap, FaPhp } from "react-icons/fa";
 const TechnologicalResources = () => {
   return (
     <div className="mt-4 mx-4 md:mx-8 lg:mx-12 lg:mt-5">
-      <h5 className="text-4xl text-blue-900 text-center font-bold" data-aos="fade-up">
+      <h5 className="text-2xl md:text-3xl lg:text-4xl text-blue-900 text-center font-bold" data-aos="fade-up">
         Technological Resources
       </h5>
-      <p className="italic text-center text-gray-600" data-aos="fade-up" data-aos-delay="200">
+      <p className="italic text-sm md:text-md text-center text-gray-600" data-aos="fade-up" data-aos-delay="200">
         Innovate with Confidence: Harnessing Cutting-Edge Technology for Next-Level Solutions!
       </p>
 

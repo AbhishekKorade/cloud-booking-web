@@ -26,13 +26,13 @@ const WeServe = () => {
     <div className="mt-10 px-4 md:px-8 lg:px-12 mb-20">
       {/* Section Title */}
       <h4
-        className="text-4xl text-blue-900 text-center font-bold"
+        className="text-2xl md:text-3xl lg:text-4xl text-blue-900 text-center font-bold"
         data-aos="fade-up"
       >
         Whom We Serve
       </h4>
       <p
-        className="italic text-center text-gray-600"
+        className="italic text-sm md:text-md text-center text-gray-600"
         data-aos="fade-up"
         data-aos-delay="200"
       >

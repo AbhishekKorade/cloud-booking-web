@@ -23,10 +23,10 @@ const OurInnovative = () => {
 
   return (
     <div className="mt-4 mx-4 md:mx-8 lg:mx-12">
-      <h4 className="text-4xl text-blue-900 text-center font-bold" data-aos="fade-up">
+      <h4 className="text-2xl md:text-3xl lg:text-4xl text-blue-900 text-center font-bold" data-aos="fade-up">
         Our Innovative
       </h4>
-      <p className="italic text-center text-gray-600" data-aos="fade-up" data-aos-delay="200">
+      <p className="italic text-sm md:text-md text-center text-gray-600" data-aos="fade-up" data-aos-delay="200">
         Innovation Woven into Every Detail.
       </p>
 

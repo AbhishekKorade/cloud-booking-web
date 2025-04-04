@@ -33,10 +33,10 @@ const ExpertTeam = () => {
   return (
     <div className="mt-4 px-4 md:px-8 lg:px-12 lg:mt-5 ">
       {/* Title & Subtitle - Fade Up */}
-      <h5 className="text-4xl text-blue-900 text-center font-bold" data-aos="fade-up">
+      <h5 className="text-2xl md:text-3xl lg:text-4xl text-blue-900 text-center font-bold" data-aos="fade-up">
         Expert Team
       </h5>
-      <p className="italic text-center text-gray-600" data-aos="fade-up" data-aos-delay="200">
+      <p className="italic text-sm md:text-md text-center text-gray-600" data-aos="fade-up" data-aos-delay="200">
         Driving Innovation Together
       </p>
 
