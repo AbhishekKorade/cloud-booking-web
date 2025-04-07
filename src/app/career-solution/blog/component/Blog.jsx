@@ -75,13 +75,13 @@ const Blog = () => {
     <div className="mt-4 pt-4 px-4 md:px-8 lg:px-12 lg:mt-5 bg-blue-50">
       {/* Title & Subtitle with AOS Fade Animation */}
       <h5
-        className="text-4xl text-blue-900 text-center font-bold"
+        className="text-2xl md:text-3xl lg:text-4xl text-blue-900 text-center font-bold"
         data-aos="fade-up"
       >
         Our Blogs
       </h5>
       <p
-        className="italic text-center text-gray-600"
+        className="italic text-sm md:text-md text-center text-gray-600"
         data-aos="fade-up"
         data-aos-delay="200"
       >
@@ -104,7 +104,7 @@ const Blog = () => {
               className="w-full h-56 object-cover"
             />
             <div className="p-5">
-              <h3 className="text-xl font-bold text-gray-800">{blog.title}</h3>
+              <h3 className="text-lg lg:text-xl font-bold text-gray-800">{blog.title}</h3>
               <p className="text-gray-600 mt-2">{blog.description}</p>
             </div>
           </div>

@@ -115,10 +115,10 @@ const Career = () => {
     <div className="mt-8 px-6 md:px-12 lg:px-16">
       {/* Title & Subtitle */}
       <div className="text-center">
-        <h2 className="text-4xl font-bold text-blue-900" data-aos="fade-up">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-blue-900" data-aos="fade-up">
           Join Our Team
         </h2>
-        <p className="italic text-gray-600 mt-2" data-aos="fade-up" data-aos-delay="200">
+        <p className="italic text-sm md:text-md text-gray-600 mt-2" data-aos="fade-up" data-aos-delay="200">
           Find the perfect role to grow your career.
         </p>
       </div>

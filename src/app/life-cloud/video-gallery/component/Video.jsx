@@ -16,10 +16,10 @@ const videos = [
 const Video = () => {
   return (
     <div className="mt-4 mx-4 md:mx-8 lg:mx-12">
-      <h4 className="text-4xl text-blue-900 text-center font-bold">
+      <h4 className="text-2xl md:text-3xl lg:text-4xl text-blue-900 text-center font-bold">
       Video Gallery
       </h4>
-      <p className="italic text-center text-gray-600">
+      <p className="italic text-sm md:text-md text-center text-gray-600">
       Embrace the Power of Moving Pictures: Explore Our Video Gallery and Get Enchanted by Captivating Moments in Motion.
       </p>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mt-4">

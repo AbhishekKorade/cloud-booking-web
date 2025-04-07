@@ -11,13 +11,13 @@ const Telecalling = () => {
     <div className="mt-4 px-4 md:px-8 lg:px-12 lg:mt-5">
       {/* Title & Subtitle - Fade Up */}
       <h5
-        className="text-4xl text-blue-900 text-center font-bold"
+        className="text-2xl md:text-3xl lg:text-4xl text-blue-900 text-center font-bold"
         data-aos="fade-up"
       >
         Telecalling Support
       </h5>
       <p
-        className="italic text-center text-gray-600"
+        className="italic text-sm md:text-md text-center text-gray-600"
         data-aos="fade-up"
         data-aos-delay="200"
       >
@@ -40,7 +40,7 @@ const Telecalling = () => {
         </div>
         {/* Text */}
         <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
-          <h3 className=" text-2xl font-bold">
+          <h3 className="text-xl lg:text-2xl font-bold">
             Chat Support And Complete Call Centre Solutions
           </h3>
           <p className="mt-5 text-[15px] md:text-[16px] lg:text-[17px] text-gray-800">

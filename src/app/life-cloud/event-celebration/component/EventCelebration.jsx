@@ -23,10 +23,10 @@ const images = [
 const EventCelebration = () => {
   return (
     <div className="mt-4 mx-4 md:mx-8 lg:mx-12">
-      <h4 className="text-4xl text-blue-900 text-center font-bold">
+      <h4 className="text-2xl md:text-3xl lg:text-4xl text-blue-900 text-center font-bold">
         Event and Celebration
       </h4>
-      <p className="italic text-center text-gray-600">
+      <p className="italic text-sm md:text-md text-center text-gray-600">
         Crafting Memories, Inspiring Joy: Bringing Your Events and Celebrations to Life, One Remarkable Experience at a Time
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-4">

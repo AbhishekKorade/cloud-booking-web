@@ -101,6 +101,7 @@ const Industries = () => {
             {/* Description */}
             <p className="text-blue-950 text-sm">{industry.description}</p>
           </div>
+          
         ))}
       </div>
     </div>

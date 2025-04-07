@@ -18,13 +18,13 @@ const SoftwareWebDevlopment = () => {
     <div className="mt-4 px-4 md:px-8 lg:px-12 lg:mt-5">
       {/* Title & Subtitle - Fade Up */}
       <h5
-        className="text-4xl text-blue-900 text-center font-bold"
+        className="text-2xl md:text-3xl lg:text-4xl text-blue-900 text-center font-bold"
         data-aos="fade-up"
       >
       Software & Web Application Development
       </h5>
       <p
-        className="italic text-center text-gray-600"
+        className="italic text-sm md:text-md text-center text-gray-600"
         data-aos="fade-up"
         data-aos-delay="200"
       >
@@ -196,10 +196,10 @@ const SoftwareWebDevlopment = () => {
                 })}
               </div>
               <div>
-                <h5 className="font-bold text-black text-xl leading-8">
+                <h5 className="font-semibold md:font-bold text-black text-xl leading-8">
                   {item.title}
                 </h5>
-                <p className="font-semibold text-[14px] sm:text-[15px] text-black">
+                <p className="font-medium text-[14px] sm:text-[15px] text-black">
                   {item.text}
                 </p>
               </div>

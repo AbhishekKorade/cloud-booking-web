@@ -16,13 +16,13 @@ const OtherMarketing = () => {
     <div className="mt-4 px-4 md:px-8 lg:px-12 lg:mt-5">
       {/* Title & Subtitle - Fade Up */}
       <h5
-        className="text-4xl text-blue-900 text-center font-bold"
+        className="text-2xl md:text-3xl lg:text-4xl text-blue-900 text-center font-bold"
         data-aos="fade-up"
       >
         Marketing Services
       </h5>
       <p
-        className="italic text-center text-gray-600"
+        className="italic text-sm md:text-md text-center text-gray-600"
         data-aos="fade-up"
         data-aos-delay="200"
       >
@@ -50,7 +50,7 @@ const OtherMarketing = () => {
           data-aos-duration="1200"
           data-aos-delay="300"
         >
-          <h3 className=" font-bold text-2xl">A. Pay-Per-Click(PPC)</h3>
+          <h3 className="font-bold text-xl lg:text-2xl">A. Pay-Per-Click(PPC)</h3>
 
           <p className="mt-5 text-[15px] md:text-[16px] lg:text-[17px] text-gray-800">
             Pay-per-click (PPC) is an internet advertising model used to drive
@@ -150,7 +150,7 @@ const OtherMarketing = () => {
 
         {/* Text */}
         <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
-          <h3 className=" font-bold text-2xl">B. Content Marketing</h3>
+          <h3 className=" font-bold text-xl lg:text-2xl">B. Content Marketing</h3>
 
           <p className="mt-5 text-[15px] md:text-[16px] lg:text-[17px] text-gray-800">
             We are a content marketing agency in India with a team that creates
@@ -241,7 +241,7 @@ const OtherMarketing = () => {
 
         {/* Text */}
         <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
-          <h3 className=" font-bold text-2xl">C. Video Production</h3>
+          <h3 className=" font-bold text-xl lg:text-2xl">C. Video Production</h3>
 
           <p className="mt-5 text-[15px] md:text-[16px] lg:text-[17px] text-gray-800">
             Online video marketing services play a critical part in establishing
@@ -330,7 +330,7 @@ const OtherMarketing = () => {
 
         {/* Features List */}
         <div className="mt-5 lg:mt-12">
-          <p className=" text-xl">Other Marketing Servies</p>
+          <p className="text-lg lg:text-xl">Other Marketing Servies</p>
 
           {/* Feature Items */}
           {[
@@ -372,10 +372,10 @@ const OtherMarketing = () => {
                 })}
               </div>
               <div>
-                <h5 className="font-bold text-black text-xl leading-8">
+                <h5 className="font-semibold md:font-bold text-black text-xl leading-8">
                   {item.title}
                 </h5>
-                <p className="font-semibold text-[14px] sm:text-[15px] text-black">
+                <p className="font-medium text-[14px] sm:text-[15px] text-black">
                   {item.text}
                 </p>
               </div>

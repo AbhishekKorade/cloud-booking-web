@@ -19,13 +19,13 @@ const DigitalMarketing = () => {
     <div className="mt-4 px-4 md:px-8 lg:px-12 lg:mt-5">
       {/* Title & Subtitle - Fade Up */}
       <h5
-        className="text-4xl text-blue-900 text-center font-bold"
+        className="text-2xl md:text-3xl lg:text-4xl text-blue-900 text-center font-bold"
         data-aos="fade-up"
       >
       Digital Marketing
       </h5>
       <p
-        className="italic text-center text-gray-600"
+        className="italic text-sm md:text-md text-center text-gray-600"
         data-aos="fade-up"
         data-aos-delay="200"
       >
@@ -52,20 +52,15 @@ const DigitalMarketing = () => {
           data-aos-duration="1200"
           data-aos-delay="300"
         >
-            <h3 className=" font-bold text-2xl">A. Branding</h3>
+            <h3 className=" font-bold text-xl lg:text-2xl">A. Branding</h3>
          
           <p className="mt-5 text-[15px] md:text-[16px] lg:text-[17px] text-gray-800">
        
           A branding and digital marketing agency can enable your company to shape an impressive perception with easy recall urging the audience to connect and engage with your brand. As a reputed branding agency in Pune, we always strive to reach the extra mile for powering up your brand value in the market.
-            
-
-          </p>
+             </p>
           <p className="mt-6 text-[15px] md:text-[16px] lg:text-[17px] text-gray-800">
-          
-         
-       We are a creative branding agency with experience and expertise in combining various branding aspects <span className=" font-bold"> such as logo, design, mission statement, and theme to shape an impactful branding strategy </span> for our clients. Our brand management services include creating <span className=" font-bold">brand identity, brand guidelines, brand assets, brand architecture and brand collaterals</span>
-            
-          </p>
+           We are a creative branding agency with experience and expertise in combining various branding aspects <span className=" font-bold"> such as logo, design, mission statement, and theme to shape an impactful branding strategy </span> for our clients. Our brand management services include creating <span className=" font-bold">brand identity, brand guidelines, brand assets, brand architecture and brand collaterals</span>
+             </p>
           <p className="mt-6 text-[15px] md:text-[16px] lg:text-[17px] text-gray-800">
           Through powerful storytelling, awe-inspiring creativity and intelligent communication, we enable your brand to build an unforgettable place in the minds of your customers. Our highly innovative branding services in Pune establish brand reputation without compromising the key requirements of our targeted clients’ audience base.
           </p>
@@ -108,7 +103,7 @@ const DigitalMarketing = () => {
           data-aos-duration="1200"
           data-aos-delay="300"
         >
-            <h3 className=" font-bold text-2xl">B. Social Media Marketing</h3>
+            <h3 className=" font-bold text-xl lg:text-2xl">B. Social Media Marketing</h3>
          
           <p className="mt-5 text-[15px] md:text-[16px] lg:text-[17px] text-gray-800">
        
@@ -197,7 +192,7 @@ const DigitalMarketing = () => {
 
         {/* Features List */}
         <div className="mt-5 lg:mt-12">
-        <p className=" text-xl">Types of social media marketing that businesses can use to promote their products or services.</p>
+        <p className=" text-lg lg:text-xl">Types of social media marketing that businesses can use to promote their products or services.</p>
 
           {/* Feature Items */}
           {[
@@ -234,10 +229,10 @@ const DigitalMarketing = () => {
                 })}
               </div>
               <div>
-                <h5 className="font-bold text-black text-xl leading-8">
+                <h5 className="font-semibold md:font-bold text-black text-xl leading-8">
                   {item.title}
                 </h5>
-                <p className="font-semibold text-[14px] sm:text-[15px] text-black">
+                <p className="font-medium text-[14px] sm:text-[15px] text-black">
                   {item.text}
                 </p>
               </div>
@@ -279,7 +274,7 @@ const DigitalMarketing = () => {
           data-aos-duration="1200"
           data-aos-delay="300"
         >
-            <h3 className=" font-bold text-2xl">C. Google Ads</h3>
+            <h3 className=" font-bold text-xl lg:text-2xl">C. Google Ads</h3>
          
           <p className="mt-5 text-[15px] md:text-[16px] lg:text-[17px] text-gray-800">
        
@@ -360,7 +355,7 @@ const DigitalMarketing = () => {
 
         {/* Features List */}
         <div className="mt-5 lg:mt-12">
-        <p className=" text-xl">Google Ads can be important for a business in several ways</p>
+        <p className=" text-lg lg:text-xl">Google Ads can be important for a business in several ways</p>
 
           {/* Feature Items */}
           {[
@@ -409,10 +404,10 @@ const DigitalMarketing = () => {
                 })}
               </div>
               <div>
-                <h5 className="font-bold text-black text-xl leading-8">
+                <h5 className="font-semibold md:font-bold text-black text-xl leading-8">
                   {item.title}
                 </h5>
-                <p className="font-semibold text-[14px] sm:text-[15px] text-black">
+                <p className="font-medium text-[14px] sm:text-[15px] text-black">
                   {item.text}
                 </p>
               </div>

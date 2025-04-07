@@ -54,10 +54,10 @@ const photos = [
 const Photo = () => {
   return (
     <div className="mt-4 mx-4 md:mx-8 lg:mx-12">
-      <h4 className="text-4xl text-blue-900 text-center font-bold">
+      <h4 className="text-2xl md:text-3xl lg:text-4xl text-blue-900 text-center font-bold">
         Photo Gallery
       </h4>
-      <p className="italic text-center text-gray-600">
+      <p className="italic text-sm md:text-md text-center text-gray-600">
         A Captivating Tapestry of Visual Stories: Journey through Our Photo
         Gallery and Experience the Extraordinary
       </p>
